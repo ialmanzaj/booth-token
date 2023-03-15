@@ -9,8 +9,8 @@ contract BoothTokenTest is Test {
     BoothToken public token;
     address public owner;
     address bob = address(0x1);
-    uint256 total_market_cap = 1000000000;
-    uint256 tokenBlockReward = 50;
+    uint total_market_cap = 1000000000;
+    uint tokenBlockReward = 50;
     uint exponential = 10 ** 18;
     uint owner_supply = 7000000;
     uint owner_total_supply = owner_supply * exponential;
